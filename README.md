@@ -1,5 +1,5 @@
 # ReadMe Generator
-de produces a clean readable readme.me file
+de produces clean readme files automatically using Node.js
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,7 +14,7 @@ Download index.js and package.json files
 
 
 ## Usage 
-Later
+run as: node index.js
 
 
 ## License 
@@ -22,15 +22,15 @@ undefined
 
 
 ## Contributing 
-later
+Later
 
 
 ## Tests 
-Yes test many times
+Just run node index.js after installing
 
 
 ## Questions 
-None
+Non so far
 
 
 ## Email 
