@@ -2,6 +2,12 @@ var inquirer = require("inquirer");
 var fs       = require("fs");
 
 
+function writeToItFirst (data) {
+    fs.writeFileSync('README.md', data, 'utf8', function(err) { 
+        if (err) throw err;
+    });
+}
+
 function writeToIt (data) {
     fs.appendFileSync('README.md', data, 'utf8', function(err) { 
         if (err) throw err;
@@ -84,8 +90,8 @@ inquirer
         },     
         {
             type: "input",
-            message: "Email Address",
-            name: "Email",
+            message: "Email Address (required):",
+            name: "email",
             validate: function(value) {
 
                 var pass = value.match(
@@ -97,20 +103,43 @@ inquirer
           
                 return 'Please enter a email address.';
             }
+        },
+        {
+            type: "checkbox",
+            name: "badges",
+            message: "Add a badge?",
+            choices:["Bootcamp", "Node", "NPM" ]
+
         }
     ])
     .then( answer => {
 
         // title  - first time in use writeFile to create a file then append the rest of the way 
-        var data = '# ' + answer.title + '\n';          
-        fs.writeFile('README.md', data, 'utf8', function(err) { 
-            if (err) throw err;
-        });
+        var data = '# ' + answer.title + '\n\n';          
+        writeToItFirst(data);
         newLine();
 
 
+   // Badges
+//    if(answer.badges.length>0){
+
+    
+
+//     for(var i=0; i< answer.badges.length; i++ ){
+ 
+//         var x = answer.badges[i];
+       
+//         if(x !="") {               
+//             writeToIt('- [' + x + '](#' + y + ")" + '\n');
+//         }     
+//     }
+//     newLine();
+// }
+
+
         // description
-         writeToIt('## Description '+ '\n' + answer.description + '\n'); 
+        writeToIt('## Description'+'\n');
+        writeToIt(answer.description+'\n');
         newLine(); 
         
 
@@ -134,28 +163,28 @@ inquirer
 
          // Installation
          if(answer.installation != "") { 
-            writeToIt('## Installation '+ '\n' + answer.installation + '\n\n');
+            writeToIt('## Installation '+ '\n' + answer.installation + '\n');
             newLine(); 
         }  
                 
 
         // usage
         if(answer.usage != "") { 
-            writeToIt('## Usage '+ '\n' + answer.usage + '\n\n');
+            writeToIt('## Usage '+ '\n' + answer.usage + '\n');
             newLine();
         }  
          
 
           // License
           if(answer.license != "") { 
-            writeToIt('## License '+ '\n' + answer.iicense + '\n\n');
+            writeToIt('## License '+ '\n' + answer.license + '\n');
             newLine(); 
         }  
         
 
         // Contributing
         if(answer.contributing != "") { 
-            writeToIt('## Contributing '+ '\n' + answer.contributing + '\n\n');
+            writeToIt('## Contributing '+ '\n' + answer.contributing + '\n');
             newLine(); 
         }  
         
@@ -163,14 +192,14 @@ inquirer
 
          // Tests
          if(answer.tests != "") { 
-            writeToIt('## Tests '+ '\n' + answer.tests + '\n\n');
+            writeToIt('## Tests '+ '\n' + answer.tests + '\n');
             newLine(); 
         }  
         
 
          // questions
          if(answer.questions != "") { 
-            writeToIt('## Questions '+ '\n' + answer.questions + '\n\n');
+            writeToIt('## Questions '+ '\n' + answer.questions + '\n');
             newLine(); 
         }  
            
@@ -178,7 +207,7 @@ inquirer
         
         // email - with valid email address
         if(answer.email != "") { 
-            writeToIt('## Email '+ '\n' + answer.email + '\n\n');
+            writeToIt('## Email '+ '\n' + answer.email + '\n');
             newLine();
         }  
             
@@ -204,3 +233,17 @@ inquirer
 // User GitHub email
 
 
+
+
+//https://img.shields.io/badge/Bootcamp-Project-brightgreen
+//https://img.shields.io/badge/Node-v13.2.0-brightgreen
+//![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+
+var badgeArr = [
+
+
+
+
+
+]

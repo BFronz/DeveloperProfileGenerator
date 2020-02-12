@@ -1,5 +1,8 @@
-# ReadMe Generator
-de produces clean readme files automatically using Node.js
+# ReadMe File Generator
+
+
+## Description
+This program produces a read me file by just asking a few questions.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,28 +15,21 @@ de produces clean readme files automatically using Node.js
 ## Installation 
 Download index.js and package.json files
 
-
 ## Usage 
-run as: node index.js
-
+npm init
 
 ## License 
-undefined
-
+YES by MIT
 
 ## Contributing 
-Later
-
+NPM and node.js websites
 
 ## Tests 
-Just run node index.js after installing
-
+Was tested
 
 ## Questions 
-Non so far
-
+none so far
 
 ## Email 
-undefined
-
+bob@bob.com
 
