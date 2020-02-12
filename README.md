@@ -1,41 +1,39 @@
-# The big project
+# ReadMe Generator
+de produces a clean readable readme.me file
+
 ## Table of Contents
 - [Installation](#installation)
-
 - [Usage](#usage)
-## Description 
-asdfasdfasdfdasdfasdfasdf asdfasdfadsasdfasdf asdfasdfasd asdfasd
-- [Contributing](#contributing)
-
 - [License](#license)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+
 ## Installation 
-Download
+Download index.js and package.json files
 
 
-
+## Usage 
+Later
 
 
 ## License 
 undefined
 
+
 ## Contributing 
-none
-
-
-## Questions 
-nope
-
-## Usage 
-not sure
-
-## Email 
-undefined
+later
 
 
 ## Tests 
-none
+Yes test many times
 
+
+## Questions 
+None
+
+
+## Email 
+undefined
 
 

@@ -3,13 +3,13 @@ var fs       = require("fs");
 
 
 function writeToIt (data) {
-    fs.appendFile('README.md', data, 'utf8', function(err) { 
+    fs.appendFileSync('README.md', data, 'utf8', function(err) { 
         if (err) throw err;
     });
 }
 
 function newLine() {
-    fs.appendFile('README.md', '\n',  'utf8',  function(err) {
+    fs.appendFileSync('README.md', '\n',  'utf8',  function(err) {
         if (err) {
             return console.error(err);
         }
@@ -53,12 +53,12 @@ inquirer
         },
         {
             type: "input",
-            message: "Any installation information( press enter to skip)? ",
+            message: "Any installation information(press enter to skip)? ",
             name: "installation"
         },   
         {
             type: "input",
-            message: "Any usage information (press enter to skip)??",
+            message: "Any usage information (press enter to skip)?",
             name: "usage"
         },  
         {
@@ -77,17 +77,26 @@ inquirer
             message: "Project Testing (press enter to skip)?",
             name: "tests"
         },          
-
         {
             type: "input",
             message: "Questions (press enter to skip)?",
             name: "questions"
         },     
- 
         {
             type: "input",
             message: "Email Address",
-            name: "Email"
+            name: "Email",
+            validate: function(value) {
+
+                var pass = value.match(
+                    /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+                );
+                if (pass) {
+                  return true;
+                }
+          
+                return 'Please enter a email address.';
+            }
         }
     ])
     .then( answer => {
@@ -101,8 +110,9 @@ inquirer
 
 
         // description
-        writeToIt('## Description '+ '\n' + answer.description + '\n'); 
+         writeToIt('## Description '+ '\n' + answer.description + '\n'); 
         newLine(); 
+        
 
             
         // Table of contents
@@ -165,7 +175,8 @@ inquirer
         }  
            
         
-        // email
+        
+        // email - with valid email address
         if(answer.email != "") { 
             writeToIt('## Email '+ '\n' + answer.email + '\n\n');
             newLine();
