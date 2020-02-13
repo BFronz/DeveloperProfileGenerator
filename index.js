@@ -134,8 +134,7 @@ inquirer
 
         // unique readme file name and data var
         var gitHubName =  answer.username.trim();
-        // const fileName = `README_${gitHubName}.MD`;
-        const fileName = `README.MD`;
+        const fileName = `README_${gitHubName}.MD`;
         var data = "";
         var avatar = "";
         var gravatar = "";
@@ -262,37 +261,10 @@ inquirer
             newLine(fileName);
         });
 
-
-
-    
-
 });
 
 
 
-
-
-
-// Badge
-// Title
-// Description
-// Table of Contents (Not 100% necessary)
-// Installation
-// Usage
-// License
-// Contributing
-// Tests
-// Questions
-// User GitHub profile picture
-// User GitHub email
-
-
-
-
-//https://img.shields.io/badge/Bootcamp-Project-brightgreen
-//https://img.shields.io/badge/Node-v13.2.0-brightgreen
-//https://img.shields.io/badge/npm-6.13.1-brightgreen
-//![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 
 

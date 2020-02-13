@@ -1,36 +1,51 @@
-# ReadMe Generator
+# Developer Profile Generator
+
+Command-line application  that creates README.md files. User's input  to a series of quesions dynamically generates a clean README.MD file.
 
 
-## Description
-Produces Nice Files
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+```sh
+Run  on comand line as: node index.js
+```
 
-## Installation 
-YES
+### Installing
+Download index.js, package.json and package.axios.json files.
+````
+npm init
+npm install <module>
 
-## Usage 
-YES
 
-## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```
 
-## Contributing 
-YES
+## Prompts for Input
+- Git Hub Username
+- Project title
+- Description
+- Table of Contents
+- Installation
+- Usage
+- License (with badge selection)
+- Contributing
+- Tests
+- Questions
+- User GitHub email
+- User GitHub profile picture
 
-## Tests 
-YES
 
-## Questions 
-YEs
+ 
+## Special Features
+Unique readme file is created with the format of README_<GitHubID>.MD.
 
-## Email 
-Any issues, questions or comments please contact <a href="mailto:bfronz@cm.net">BFronz</a> 
 
-<img src="https://avatars1.githubusercontent.com/u/29105530?v=4" alt="BFronz" width='50px' height='50px'>
+## Credits
+Inquirer.js  <a href="https://github.com/SBoudrias/Inquirer.js" targer="_blank">SBoudrias/</a>
+<a href="https://shields.io/" targer="_blank">shields.io</a>
+
+
+## Acknowledgments
+
+* Rutgers Bootcamp Team
+
+
+
+
