@@ -2,7 +2,7 @@
 
 
 ## Description
-Code produces great readme  files
+Produces Nice Files
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,7 +16,7 @@ Code produces great readme  files
 YES
 
 ## Usage 
-YEs
+YES
 
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -25,12 +25,12 @@ YEs
 YES
 
 ## Tests 
-YEs
+YES
 
 ## Questions 
 YEs
 
 ## Email 
-Any issues, questions or comments please contact <a href="mailto:bob@cmg.net">BFronz</a> 
+Any issues, questions or comments please contact <a href="mailto:bfronz@cm.net">BFronz</a> 
 
-<img src="https://avatars1.githubusercontent.com/u/29105530?v=4" alt="BFronz">
+<img src="https://avatars1.githubusercontent.com/u/29105530?v=4" alt="BFronz" width='50px' height='50px'>

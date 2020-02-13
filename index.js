@@ -257,7 +257,7 @@ inquirer
         .then(resp => {       
             newLine(fileName);
             avatar = resp.data.avatar_url;    
-            data = `<img src="${avatar}" alt="${gitHubName}">`;
+            data = `<img src="${avatar}" alt="${gitHubName}" width='50px' height='50px'>`;
             writeToIt(fileName,data);
             newLine(fileName);
         });
