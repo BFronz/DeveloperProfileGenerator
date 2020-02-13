@@ -1,4 +1,4 @@
-# The Coding Project
+# The Coding Title Here - Sample of output
 
 
 ## Description
@@ -24,7 +24,7 @@ Instructions on how to use the project.
 Any contributing information goes here.
 
 ## Tests 
-So what test were done on the project. This output is a test.
+So what tests were done on the project. This output is a test.
 
 ## Questions 
 Any issues, questions or comments please contact <a href="mailto:bfronz1960@me.com">BFronz</a> 
