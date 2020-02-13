@@ -2,7 +2,7 @@
 
 
 ## Description
-Code produces great readme.MD files
+Code produces great readme  files
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,7 +13,7 @@ Code produces great readme.MD files
 - [Questions](#questions)
 
 ## Installation 
-YEs
+YES
 
 ## Usage 
 YEs
@@ -22,14 +22,15 @@ YEs
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing 
-YEs
+YES
 
 ## Tests 
-Eys
+YEs
 
 ## Questions 
-Yes
+YEs
 
 ## Email 
-Any issues, questions or comments please contact <a href="mailto:bob@cmg.net">Bfronz</a> 
-<img src="undefined" alt="Bfronz">
+Any issues, questions or comments please contact <a href="mailto:bob@cmg.net">BFronz</a> 
+
+<img src="https://avatars1.githubusercontent.com/u/29105530?v=4" alt="BFronz">

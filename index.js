@@ -25,6 +25,7 @@ function newLine(fileName) {
     });
 }
 
+
 const licenseObj = {
     "MIT": "https://img.shields.io/badge/License-MIT-brightgreen",
     "BSD": "https://img.shields.io/badge/License-BSD-brightgreen",
@@ -246,18 +247,17 @@ inquirer
             data  = `Any issues, questions or comments please contact <a href="mailto:${em}">${gitHubName}</a> `;
             writeToIt(fileName,data);
             newLine(fileName);
+            
         }  
 
         // git hub
         const queryUrl = `https://api.github.com/users/${gitHubName}`;
         axios
         .get(queryUrl)
-        .then(resp => {
-          
-            //avatar = resp.data.avatar_url;  
-            const { avatar } = resp.data.avatar_url;  
+        .then(resp => {       
+            newLine(fileName);
+            avatar = resp.data.avatar_url;    
             data = `<img src="${avatar}" alt="${gitHubName}">`;
-            
             writeToIt(fileName,data);
             newLine(fileName);
         });
