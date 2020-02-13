@@ -10,14 +10,19 @@ Run  on comand line as: node index.js
 ```
 
 ### Installing
-Download *index.js *package.json * package.axios.json files.
+Download 
+* index.js 
+* package.json 
+* package.axios.json files.
+
 ```
 npm init
 npm install <module.json>
 
 ```
 
-## Prompts for Input
+## Usage
+### Prompts for Input:
 - Git Hub Username (required)
 - Project title (required)
 - Description (required)
@@ -38,8 +43,11 @@ Unique readme file is created with the format of README_<GitHubID>.MD. Fast runn
 
 
 ## Credits
-Inquirer.js  <a href="https://github.com/SBoudrias/Inquirer.js" targer="_blank">SBoudrias</a>
-<a href="https://shields.io/" targer="_blank">shields.io</a>
+Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank">SBoudrias</a>
+
+Badges: <a href="https://shields.io/" target="_blank">shields.io</a>
+
+License: <a href="https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba"> target="_blank">lukas-h</a>
 
 
 ## Acknowledgments
