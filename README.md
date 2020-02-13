@@ -47,7 +47,7 @@ Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank"
 
 Badges: <a href="https://shields.io/" target="_blank">shields.io</a>
 
-License: <a href="https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba"> target="_blank">lukas-h</a>
+License: <a href="https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba" target="_blank">lukas-h</a>
 
 
 ## Acknowledgments
