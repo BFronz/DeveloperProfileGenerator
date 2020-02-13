@@ -2,7 +2,7 @@
 
 
 ## Description
-Here goes the description. A breif paragraph or two about the project and what it does.
+A short description about the project goes here.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,16 +15,16 @@ Here goes the description. A breif paragraph or two about the project and what i
 ```Run as ...```
 
 ## Usage 
-how to install
+Instructions on how to use the project.
 
 ## License 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing 
-Any information
+Any contributing information goes here.
 
 ## Tests 
-Testing done
+So what test were done on the project. This output is a test.
 
 ## Questions 
 Any issues, questions or comments please contact <a href="mailto:bfronz1960@me.com">BFronz</a> 
