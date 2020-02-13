@@ -1,8 +1,8 @@
-# ReadMe File Generator
+# ReadMe Generator
 
 
 ## Description
-This program produces a read me file by just asking a few questions.
+Code produces great readme.MD files
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,23 +13,23 @@ This program produces a read me file by just asking a few questions.
 - [Questions](#questions)
 
 ## Installation 
-Download index.js and package.json files
+YEs
 
 ## Usage 
-npm init
+YEs
 
 ## License 
-YES by MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing 
-NPM and node.js websites
+YEs
 
 ## Tests 
-Was tested
+Eys
 
 ## Questions 
-none so far
+Yes
 
 ## Email 
-bob@bob.com
-
+Any issues, questions or comments please contact <a href="mailto:bob@cmg.net">Bfronz</a> 
+<img src="undefined" alt="Bfronz">

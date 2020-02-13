@@ -1,0 +1,22 @@
+{
+  "name": "developerprofilegenerator",
+  "version": "1.0.0",
+  "description": "Creates a README.MD file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BFronz/DeveloperProfileGenerator.git"
+  },
+  "author": "Bob Fronczak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BFronz/DeveloperProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/BFronz/DeveloperProfileGenerator#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
