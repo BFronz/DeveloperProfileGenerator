@@ -39,7 +39,8 @@ npm install <module.json>
 
  
 ## Special Features
-Unique readme file is created with the format of README_<GitHubID>.MD. Fast running. Clean nice ouptut.
+Unique readme file is created with the format of README_<GitHubID>.MD. Fast running. Clean nice ouptut. Easy
+to run:
 
 
 
