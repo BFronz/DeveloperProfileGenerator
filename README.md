@@ -16,7 +16,7 @@ Download
 
 
 ```
-npm init
+
 npm install <module.json>
 
 ```
