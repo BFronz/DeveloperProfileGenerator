@@ -13,7 +13,7 @@ Run  on comand line as: node index.js
 Download 
 * index.js 
 * package.json 
-* package.axios.json files.
+
 
 ```
 npm init
@@ -41,11 +41,11 @@ npm install <module.json>
 ## Special Features
 Unique readme file is created with the format of README_<GitHubID>.MD. Fast running. Clean nice ouptut.
 
-
+```
 
 ![](DevProGene.gif)
 
-
+```
 
 ## Credits
 Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank">SBoudrias</a>
