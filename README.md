@@ -42,6 +42,11 @@ npm install <module.json>
 Unique readme file is created with the format of README_<GitHubID>.MD. Fast running. Clean nice ouptut.
 
 
+
+![](DevProGene.gif)
+
+
+
 ## Credits
 Inquirer.js:  <a href="https://github.com/SBoudrias/Inquirer.js" target="_blank">SBoudrias</a>
 
